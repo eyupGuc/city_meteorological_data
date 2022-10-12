@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: $lightYellow;
+  background-color: wheat;
  
 
   .card {
@@ -32,6 +32,7 @@
         text-align: center;
     }
     .desc {
+        border-radius: 10px;
         background-color: $lightGreen;
         font-size: 1.5rem;
         // border: 2px solid red;
