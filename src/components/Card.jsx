@@ -21,10 +21,10 @@ const Card = ({ data }) => {
 
             <img src={img} alt="img" />
             <div className={CardStyle.desc}>
-              <p>En yüksek sıcaklık:{highestTemperature}°C</p>
-              <p>En düşük sıcaklık:{lowestTemperature}°C</p>
-              <p>Yıllık ortalama yağış:{totalPrecipitation}</p>
-              <p>Max. kar kalınlığı:{maxSnowThickness}</p>
+              <p>En yüksek sıcaklık: {highestTemperature}°C</p>
+              <p>En düşük sıcaklık: {lowestTemperature}°C</p>
+              <p>Yıllık ortalama yağış: {totalPrecipitation}</p>
+              <p>Max. kar kalınlığı: {maxSnowThickness}</p>
             </div>
           </div>
         );

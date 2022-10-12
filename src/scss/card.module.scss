@@ -27,19 +27,13 @@
         // color: $backgroundColor;
         font-size: 1rem;
         padding: 1rem;
+        text-align: center;
     }
     .desc {
-        color: black;
-        position: absolute;
-        bottom: 0;
-        left: 0;
         font-size: 1.5rem;
-        background-color: rgba(0,0,0,0.5);
-        padding: 1rem;
-        transform: translateY(100%);
-        z-index: 1;
-        transition: transform 0.7s ease-in-out;
         border: 2px solid red;
+        text-align: center;
+       p{padding: 0.5rem; }
     }
   }
 }
