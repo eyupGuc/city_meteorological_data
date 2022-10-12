@@ -15,9 +15,15 @@ const Card = ({ data }) => {
         } = item;
         return (
           <div key={id} className={CardStyle.container}>
-            {" "}
-            <h1>{city}</h1> <img width={"400px"} src={img} alt="img" />{" "}
+            <div className={CardStyle.title}><h2>{city}</h2></div>
+            
+             <img  src={img} alt="img" />
+             <div className={CardStyle.desc}>
+<p>En yüksek sıcaklık:{highestTemperature}</p>
+
+             </div>
           </div>
+          
         );
       })}
     </div>
