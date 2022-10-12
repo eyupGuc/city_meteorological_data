@@ -73,4 +73,14 @@ const data=[
         
 
     },
+    {
+        id:9,
+        city:"Iğdır",
+        yıllık_toplam_yağış:"259mm",
+        en_düşük_sıcaklık:"-30.3",
+        en_yüksek_sıcaklık:"42.0",
+        max_kar_kalınılığı:"38cm"
+        
+
+    },
 ];
