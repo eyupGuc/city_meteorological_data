@@ -2,7 +2,7 @@ import CardStyle from "../scss/card.module.scss";
 const Card = ({ data }) => {
   // console.log(data);
   return (
-    <div>
+    <div className={CardStyle.container}>
       {data.map((item) => {
         const {
           id,
@@ -14,7 +14,7 @@ const Card = ({ data }) => {
           img,
         } = item;
         return (
-          <div key={id} className={CardStyle.container}>
+          <div key={id} className={CardStyle.card}>
             <div className={CardStyle.title}>
               <h2>{city}</h2>
             </div>
@@ -24,7 +24,7 @@ const Card = ({ data }) => {
               <p>En yüksek sıcaklık:{highestTemperature}°C</p>
               <p>En düşük sıcaklık:{lowestTemperature}°C</p>
               <p>Yıllık ortalama yağış:{totalPrecipitation}</p>
-              <p>Max. kar kalınkığı:{maxSnowThickness}</p>
+              <p>Max. kar kalınlığı:{maxSnowThickness}</p>
             </div>
           </div>
         );
