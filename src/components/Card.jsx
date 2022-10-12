@@ -1,18 +1,27 @@
-
-const Card=({data})=>{
-    // console.log(data);
-    return (<div className="card-container">
-        {data.map((item)=>{
-const{id,city,highestTemperature,lowestTemperature,maxSnowThickness,totalPrecipitation}=data;
-return( <div key={id}><img src={item.img} alt="img"/> <h1>{item.city}</h1></div>)
-        })}
-        
-
-
-
-
-        </div>
-    )
-}
+import CardStyle from "../scss/card.module.scss";
+const Card = ({ data }) => {
+  // console.log(data);
+  return (
+    <div>
+      {data.map((item) => {
+        const {
+          id,
+          city,
+          highestTemperature,
+          lowestTemperature,
+          maxSnowThickness,
+          totalPrecipitation,
+          img,
+        } = item;
+        return (
+          <div key={id} className={CardStyle.container}>
+            {" "}
+            <h1>{city}</h1> <img width={"400px"} src={img} alt="img" />{" "}
+          </div>
+        );
+      })}
+    </div>
+  );
+};
 
 export default Card;
