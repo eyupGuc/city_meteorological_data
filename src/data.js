@@ -100,7 +100,7 @@ const data=[
         lowestTemperature:"-24.1",
         highestTemperature:"34.6",
         maxSnowThickness:"250cm",
-        img:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/B%C3%AAdlis.jpg/800px-B%C3%AAdlis.jpg://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/I%C4%9Fd%C4%B1r_ve_A%C4%9Fr%C4%B1_Da%C4%9F%C4%B1.jpg/1200px-I%C4%9Fd%C4%B1r_ve_A%C4%9Fr%C4%B1_Da%C4%9F%C4%B1.jpg",
+        img:"https://assets.enuygun.com/media/lib/570x400/uploads/image/bitlis-36386.jpeg",
            
     }
 ];
